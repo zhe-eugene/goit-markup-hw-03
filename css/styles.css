@@ -6,8 +6,7 @@ body {
 
 ul {
     list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     padding-left: 0;
 }
 
@@ -18,9 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+    margin: 0;
 }
 
 a {
@@ -78,6 +75,7 @@ a {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 
 }
 
@@ -106,6 +104,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-navigation-link:hover,
@@ -208,18 +208,19 @@ a {
 
 .advantages-list {
     display: flex;
+
     gap: 24px;
 }
 
-.advantages-item {}
+.advantages-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
 
 .advantages-subtitle {
     margin-bottom: 8px;
 }
 
-.advantages-text {
-    width: 264;
-}
+.advantages-text {}
 
 
 /* --------------------section-ourteam----------------------- */
@@ -249,6 +250,7 @@ a {
 
 .ourteam-item {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
 
 }
 
@@ -302,18 +304,29 @@ a {
 }
 
 
-.ourportfolio-item {}
+.ourportfolio-item {
+    margin-bottom: 48px;
+}
 
 .ourportfolio-image {}
 
+.container-ourportfolio {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    width: 360px;
+    height: 120px;
+}
+
 .ourportfolio-subtitle {
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
 .ourportfolio-text {
     margin-bottom: 32px;
 }
+
 
 
 /* --------------------FOOTER----------------------- */
