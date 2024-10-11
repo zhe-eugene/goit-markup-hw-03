@@ -60,7 +60,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 72px;
+    margin-right: 76px;
 }
 
 .container {
@@ -81,6 +81,7 @@ a {
 
 .header-navigation {
     display: flex;
+    align-items: center;
 }
 
 .header-navigation-logo {}
@@ -160,7 +161,7 @@ a {
 .section-main {
     background: #2e2f42;
     padding-top: 188px;
-    padding-bottom: 180px;
+    padding-bottom: 188px;
 }
 
 
@@ -172,7 +173,7 @@ a {
     text-align: center;
     color: #fff;
     padding-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
 
 }
@@ -189,8 +190,9 @@ a {
     border-radius: 4px;
     margin: 0 auto;
     display: block;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
+    border: none;
 
 }
 
@@ -255,10 +257,7 @@ a {
 }
 
 .container-name-jobtitle {
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-right: 16px;
-    margin-left: 16px;
+    padding: 32px 0 32px
 }
 
 .ourteam-subtitle {
@@ -278,7 +277,9 @@ a {
     text-align: center;
 }
 
-.ourteam-image {}
+.ourteam-image {
+    display: block;
+}
 
 /* --------------------section-ourportfolio----------------------- */
 
@@ -301,14 +302,15 @@ a {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
+    row-gap: 48px;
 }
 
 
-.ourportfolio-item {
-    margin-bottom: 48px;
-}
+.ourportfolio-item {}
 
-.ourportfolio-image {}
+.ourportfolio-image {
+    display: block;
+}
 
 .container-ourportfolio {
     border-bottom: 1px solid #e7e9fc;
