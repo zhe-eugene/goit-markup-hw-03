@@ -77,8 +77,7 @@ img {
 /* --------------------HEADER----------------------- */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+
     border-bottom: 1px solid #e7e9fc;
 
 }
@@ -111,6 +110,7 @@ img {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
 }
 
 .header-navigation-link:hover,
@@ -120,6 +120,8 @@ img {
 
 .container-header {
     display: flex;
+    align-items: center;
+
 }
 
 .header-address {
@@ -132,8 +134,6 @@ img {
 .header-address-list {
     display: flex;
     gap: 40px;
-
-
 }
 
 .header-address-item {}
@@ -176,9 +176,9 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    padding-bottom: 48px;
     max-width: 496px;
     margin: 0 auto;
+    margin-bottom: 48px;
 
 }
 
